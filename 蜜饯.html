@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>甜城内江</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFAC1C;
+  }
+  .navbar {
+    background-color: #FF7F50;
+    overflow: hidden;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  .carousel {
+    width: 70%;
+    overflow: hidden;
+  }
+  .carousel img {
+    width: 100%;
+    display: none;
+  }
+  .news-list {
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  .footer {
+    background-color: #FF7F50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="蜜饯.html" target="_blank">首页</a>
+  <a href="https://www.njtc.edu.cn/nsxw/xxyw.htm" target="_blank">甜历史</a>
+  <a href="https://jycy.njtc.edu.cn/" target="_blank">甜文化</a>
+  <a href="https://xy.njtc.edu.cn/xyhd.htm" target="_blank">甜技艺</a>
+  <a href="https://b.u.h5mc.com/c/jp2e/-mxp/index.html" target="_blank">h5蜜饯之行</a>
+  <a href="https://uland.taobao.com/sem/tbsearch?clk1=8bf3a318cd2e1d3f696a372b7c3e74cb&keyword=%E4%BC%A0%E7%BB%9F%E7%B3%95%E7%82%B9&localImgKey=&msclkid=63bea8783c481f43e74ecf1ea0885f47&page=1&q=%E5%86%85%E6%B1%9F%E7%89%B9%E4%BA%A7&refpid=mm_2898300158_3078300397_115665800437&tab=all&upsId=8bf3a318cd2e1d3f696a372b7c3e74cb" target="_blank">甜周边</a>
+  <a href="#contact" >关于我们</a>
+</div>
+
+<div class="container">
+  <div class="carousel">
+    <img src="https://pic.vjshi.com/2021-04-26/a1da47c1e99a51dace79317b37ce9fe4/00002.jpg?x-oss-process=style/watermark" alt="Image 1" class="mySlides fade" style="display: block;">
+    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.4d61b3aa53ad750174e7d8d36ca24d9a?rik=dZUiPJbJ4tlVQg&riu=http%3a%2f%2fn.sinaimg.cn%2fsinacn10%2f88%2fw1080h608%2f20180816%2f2047-hhvciiv6312223.jpg&ehk=CaKC2NcrKPBvttOMZcaNyIE8wcy8sEvGnB6aAUdBcfQ%3d&risl=&pid=ImgRaw&r=0" alt="Image 2" class="mySlides fade">
+    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.c0c6da697809007a700155ba2cf532b7?rik=VGCIEXvtleCNpw&riu=http%3a%2f%2fn.sinaimg.cn%2fsinakd20118%2f762%2fw1000h562%2f20211007%2fece0-3c64760f9e45ca50c1ae06904be41c4c.jpg&ehk=8DcNYnrtdWXiwdET%2bM93K6RaKqtpgFpCNUc1TjIbxs0%3d&risl=&pid=ImgRaw&r=0" alt="Image 3" class="mySlides fade">
+    <div class="dot" onclick="currentSlide(1)"></div>
+    <div class="dot" onclick="currentSlide(2)"></div>
+    <div class="dot" onclick="currentSlide(3)"></div>
+  </div>
+  <div class="news-list">
+    <h2> 最新新闻</h2>
+    <ul>
+      <li><a href="https://news.bjd.com.cn/2024/12/04/10991103.shtml" target="_blank">四川内江举办柑橘采摘节 非遗传承人现场展示蜜饯制作</a></li>
+      </br>
+      <li><a href="https://www.thepaper.cn/newsDetail_forward_25509490" target="_blank">甜蜜蜜！因为这事，内江蜜饯被省上“点名”啦</a></li>
+      </br>
+      <li><a href="https://m.thepaper.cn/newsDetail_forward_21578659" target="_blank">蜜饯，内江的“甜蜜名片”</a></li>
+      </br>
+      <li><a href="https://news.qq.com/rain/a/20241204A0A8LK00" target="_blank">“甜洒人间”！“内江甜”上天——</a></li>
+      </br>
+      <li><a href="https://news.qq.com/rain/a/20221002A033UD00" target="_blank">【内江好耍】内江蜜饯，原来是这样“出来”的——</a></li>
+      </br>
+      <li><a href="https://www.thepaper.cn/newsDetail_forward_3053169" target="_blank">火了！内江又上央视了！这次是我们老祖宗流传下来的东西——</a></li>
+      </br>
+       <li><a href="https://news.qq.com/rain/a/20230325A02QKV00" target="_blank">【内江好耍】前方高甜！＠内江人，哪种是你的最爱——</a></li>
+      </br>
+        <li><a href="https://www.thepaper.cn/newsDetail_forward_9235760" target="_blank">谁说蜜饯“洗白”了？5.5万平米的内江蜜饯产业园来了——</a></li>
+      <!-- Add more news items here -->
+    </ul>
+  </div>
+</div>
+
+<div class="content" id="news">
+  <h2>城市简介</h2>
+    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.1edb45ea18be4539e1637a193213cdaf?rik=SzUY5hIBBoCsbQ&riu=http%3a%2f%2fsc.news.cn%2f20230615%2f0709a971abcb46e1b2e371a9c63b149b%2f202306150709a971abcb46e1b2e371a9c63b149b_20230615e625d128b542476a8ab46e3fd88ba185.jpg&ehk=aFUXH%2fcX69JBHpeWqLFPZ2v3u1ZueDkkcCUVg%2fwsxiU%3d&risl=&pid=ImgRaw&r=0" alt="学校图片" width="150" height="140" style="float: right; margin: 0 0 10px 10px;">
+  <p>内江市（Neijiang），古称汉安、中江，别称甜城，四川省辖地级市，方言为内江话，位于四川盆地东南部、沱江下游中段，位居重庆、成都两大城市中心，素有“川南咽喉”“巴蜀要塞”“成渝之心”之称。是国家重点交通枢纽之一、“一带一路”重要交汇点、四川第二大交通枢纽和西南陆路交通交接点；全市总面积5384.8平方千米，辖2个区、2个县，代管1个县级市，2023年末，内江市户籍总人口396.70万人。</p>
+  <p><br>  
+  <!-- Add more news content here -->
+</div>
+
+<div class="content" id="events">
+  <h2>名称演变</h2>
+  <p>内江，东汉置县，曾名汉安，中江。因沱江北段叫牛鞞水，为北江；南段为枝江，称南江，此为中江。隋初，为避太祖杨忠之讳，改为内江。1951年设为内江市。一说因取内水（即沱江）为名，盖市县位沱江西岸，江至此，曲流成弧，有如半岛，城居其内故名内江。</p>
+  <!-- Add more event details here -->
+</div>
+
+<div class="content" id="events">
+  <h2>甜城简述</h2>
+  <p>关于“甜城”由来有许多民间传说，最有影响的一说则是明朝末年，李自成专程来四川拜会张献忠联合攻明朝，张献忠请李自成品尝蜜饯并告诉产于内江,李自成尝后觉得甜香润心，妙不可言，称赞 “内江真乃甜城也”，但这仅是传说而已。</p>
+实际上，1938-1942年，内江年种甘蔗在50万亩以上，产蔗100万吨以上，产糖7万吨以上，其中1940年种蔗67万亩，产蔗164万吨，产糖13万吨，占全国省55%，全国的1/4，为历史最高；</p>建国后1957年，内江种蔗38万亩，产蔗100万吨，产糖8万吨，当年上交糖税占全地区财政收入的20%，上世纪70,80年代，内江糖业和内江的工业一起一度比肩成渝，成为闻名遐迩的“内老三”，甜城名副其实
+</p>
+  <!-- Add more event details here -->
+</div>
+
+
+<div class="content" id="about">
+  <h2>甜城宣传片<a href="https://www.bilibili.com/video/BV1Rv411z7D1/?vd_source=64f63a2c17361772f5149d72f3e2a3af" target="_blank"></a></h2>
+  <p><a href="https://www.bilibili.com/video/BV1Rv411z7D1/?vd_source=64f63a2c17361772f5149d72f3e2a3af" target="_blank">点击观看</a></p>
+  <!-- Add more about us content here -->
+</div>
+<div class="content" id="contact">
+  <h2>关于我们</h2>
+  <p>本网站的设计意图为，使不了解内江的朋友们对内江有一个大概的了解，并且针对对内江及内江甜文化有兴趣的朋友们提供更多相关信息。在这个快节奏的世界里，我始终相信甜品能够带来温暖和慰藉，而内江的甜品文化尤其让我着迷。因此，我决定创建这个网站，将这份甜蜜与更多人分享。感谢您访问内江甜文化网站，希望您在这里找到甜蜜，也找到文化的力量。如果您有任何建议或想要分享的故事，欢迎随时与我联系。让我们一起，将这份甜蜜传递给世界。</p>
+</div>
+
+<div class="footer">
+  <p>版权所有 &copy; 2024 甜橙内江</p>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (slideIndex >= slides.length) {slideIndex = 0}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+</script>
+
+</body>
+</html>
